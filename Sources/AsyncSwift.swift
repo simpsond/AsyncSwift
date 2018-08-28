@@ -34,9 +34,11 @@ public class AsyncSwift {
                     print("here")
                     if isError {
                         wasErrorInProcess = true
-                        for i in funcCounter...workItems.count-1 {
-                            workItems[i].cancel()
-                            dGroup.leave()
+                        if funcCounter < workItems.count {
+                            for i in funcCounter...workItems.count-1 {
+                                workItems[i].cancel()
+                                dGroup.leave()
+                            }
                         }
                     }
                     semaphore.signal()
