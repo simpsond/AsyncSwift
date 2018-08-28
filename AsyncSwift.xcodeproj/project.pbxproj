@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		C2654BA321351A43003BB2FE /* AsyncSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2654BA221351A43003BB2FE /* AsyncSwift.swift */; };
 		C2654BA421351A43003BB2FE /* AsyncSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2654BA221351A43003BB2FE /* AsyncSwift.swift */; };
-		C2654BB821359310003BB2FE /* AsyncSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = C2654BB72135922E003BB2FE /* AsyncSwift.h */; };
+		C2654BB821359310003BB2FE /* AsyncSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = C2654BB72135922E003BB2FE /* AsyncSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2654BBB21359375003BB2FE /* AsyncSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = C2654BB72135922E003BB2FE /* AsyncSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
